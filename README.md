@@ -1,15 +1,22 @@
 # Active Certificate Key
-![image]()
-![image]()
-![image]()
-![image]()
+![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/1.png)
+![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/2.png)
+![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/3.png)
+![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/4.png)
 
 # install windows app in your PC with Certificate Key
 ./HeartFailure_URL/HeartFailure/AppPackages/HeartFailure_1.0.2.0_Test/Add-AppDevPackage.ps1，按右鍵使用powershell執行安裝
+![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/5.png)
+![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/6.png)
+![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/7.png)
+![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/8.png)
+![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/9.png)
 
 # install python and python package using in ./HeartFailure/HeartFailure_flask/ONNX_classify_flask.py
+pip install {python package}
 
 # 執行 bash.bat file，等待 cmd flask server 起成功，才能開始使用UI/UX
+![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/10.png)
 
 # edit bat file to your path
 # C:\"Program Files"\WindowsApps\78f0adba-62c6-4d20-8cde-ac5a99d61f40_1.0.2.0_x64__835jxghk0an7e\HeartFailure.exe
