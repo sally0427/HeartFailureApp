@@ -8,8 +8,8 @@
 ./HeartFailure_URL/HeartFailure/AppPackages/HeartFailure_1.0.2.0_Test/Add-AppDevPackage.ps1，按右鍵使用powershell執行安裝
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/5.png)
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/6.png)
-![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/7.png)
-![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/8.png)
+![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/7.png)<br>
+![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/8.png)\<br>
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/9.png)
 
 # Clone this github and put the onnx model and Certificate Key in the file and edit the model path.
