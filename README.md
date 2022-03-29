@@ -46,3 +46,6 @@ start using UI/UX until waiting for cmd flask server success.
 
 ## 成功執行之畫面
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/11.png)
+
+## Reference
+[Google](https://docs.microsoft.com/zh-tw/windows/msix/package/packaging-uwp-apps)
