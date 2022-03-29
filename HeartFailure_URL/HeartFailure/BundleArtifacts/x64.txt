@@ -1,0 +1,2 @@
+MainPackage=C:\Users\AAEON\Desktop\HeartFailure\HeartFailure_URL\HeartFailure\bin\x64\Release\HeartFailure_1.0.2.0_x64.msix
+SymbolPackage=C:\Users\AAEON\Desktop\HeartFailure\HeartFailure_URL\HeartFailure\obj\x64\Release\Symbols\HeartFailure_1.0.2.0_x64.appxsym
