@@ -86,3 +86,10 @@ start using UI/UX until waiting for cmd flask server success.
 ## Training Heart Failure Model
 1. Using pytorch to pretrain without pretrained weight
 2. Convert the .pt model to .onnx model using pytorch_model2ONNX_model in another github project.
+3. **Be careful! If you want to use openvino and myriad you have to check if myriad supports the model layer and deep learning framework you need.**
+
+[Supprots](https://docs.openvino.ai/2021.4/openvino_docs_IE_DG_supported_plugins_Supported_Devices.html#supported_model_formats)
+
+[Supprots](https://docs.openvino.ai/latest/openvino_docs_MO_DG_prepare_model_convert_model_Convert_Model_From_ONNX.html#supported_public_onnx_topologies)
+
+[Supprots](https://docs.openvino.ai/2021.4/openvino_docs_IE_DG_supported_plugins_VPU.html)
