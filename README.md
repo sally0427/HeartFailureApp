@@ -4,7 +4,7 @@ the system have two part:
 1. HeartFailure_flask : Load Model and predict(Python).
 Use python + Flask to create a server to use "HeartFailure_URL".
 2. HeartFailure_URL : Controller and view(C#).
-Use HeartFailure_flask to complete this UI for server, a UI for Heart Failure classificati
+Use HeartFailure_flask to complete this UI for server, a UI for Heart Failure classification
 
 # Use
 ### Clone this github
@@ -16,7 +16,7 @@ git clone https://github.com/sally0427/HeartFailureApp.git
 
 ## HeartFailure_flask
 ### Install python package 
-using in ./HeartFailure/HeartFailure_flask/ONNX_classify_flask.py
+The python package using in ./HeartFailure/HeartFailure_flask/ONNX_classify_flask.py
 ```
 pip install -r requirements.txt
 ```
@@ -24,26 +24,42 @@ pip install -r requirements.txt
 ## HeartFailure_URL
 ### Active Certificate Key
 左鍵按兩下名稱為"AAEON"的Certificate Key，選擇Local Machine按下Next
+
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/1.png)
+
 密碼為AAEON，按下Next
+
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/2.png)
+
 選擇第一個選項，按Next
+
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/3.png)
+
 啟動Certificate Key成功畫面
+
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/4.png)
 
 ## Install windows app in your PC with Certificate Key
 ./HeartFailure_URL/HeartFailure/AppPackages/HeartFailure_1.0.2.0_Test/Add-AppDevPackage.ps1
 
 按右鍵使用powershell執行安裝
+
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/5.png)
+
 安裝成功畫面
+
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/6.png)
+
 左鍵點兩下安裝檔
+
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/7.png)
+
 按下啟動
+
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/8.png)
+
 確認UI/UX有畫面，安裝成功!(但還不能用，因為沒啟動flask)
+
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/9.png)
 
 ## Edit bat file to your own path
