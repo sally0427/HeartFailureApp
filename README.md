@@ -23,17 +23,27 @@ pip install -r requirements.txt
 
 ## HeartFailure_URL
 ### Active Certificate Key
+左鍵按兩下名稱為"AAEON"的Certificate Key，選擇Local Machine按下Next
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/1.png)
+密碼為AAEON，按下Next
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/2.png)
+選擇第一個選項，按Next
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/3.png)
+啟動Certificate Key成功畫面
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/4.png)
 
 ## Install windows app in your PC with Certificate Key
-./HeartFailure_URL/HeartFailure/AppPackages/HeartFailure_1.0.2.0_Test/Add-AppDevPackage.ps1，按右鍵使用powershell執行安裝
+./HeartFailure_URL/HeartFailure/AppPackages/HeartFailure_1.0.2.0_Test/Add-AppDevPackage.ps1
+
+按右鍵使用powershell執行安裝
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/5.png)
+安裝成功畫面
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/6.png)
+左鍵點兩下安裝檔
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/7.png)
+按下啟動
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/8.png)
+確認UI/UX有畫面，安裝成功!(但還不能用，因為沒啟動flask)
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/9.png)
 
 ## Edit bat file to your own path
