@@ -1,22 +1,28 @@
-## Clone this github and put the onnx model and Certificate Key in the file and edit the model path.
+# Heart Failure App
+Predicting whether a patient is likely to develop heart failure with the chest X-Ray image.
+the system have two part:
+1. HeartFailure_flask : Load Model and predict(Python).
+Use python + Flask to create a server to use "HeartFailure_URL".
+2. HeartFailure_URL : Controller and view(C#).
+Use HeartFailure_flask to complete this UI for server, a UI for Heart Failure classificati
+
+# Use
+### Clone this github
 ```
 git clone https://github.com/sally0427/HeartFailureApp.git
 ```
+###  Put the onnx model and Certificate Key in the file and edit the model path.
+**If your own model can use openvino and myriad, you can change the python file named "ONNX_classify_flask_openvino.py" and change the URL in HeartFailure_URL**
 
-### HeartFailure_URL
-Use HeartFailure_flask to complete this UI for server.
-### HeartFailure_flask
-Use python + Flask to create a server to use "HeartFailure_URL", a UI for Heart Failure classification
-
-# Python
-## Install python and python package 
+## HeartFailure_flask
+### Install python package 
 using in ./HeartFailure/HeartFailure_flask/ONNX_classify_flask.py
 ```
 pip install -r requirements.txt
 ```
 
-# Windows App(C#)
-## Active Certificate Key
+## HeartFailure_URL
+### Active Certificate Key
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/1.png)
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/2.png)
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/3.png)
@@ -48,4 +54,9 @@ start using UI/UX until waiting for cmd flask server success.
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/11.png)
 
 ## Reference
-[Google](https://docs.microsoft.com/zh-tw/windows/msix/package/packaging-uwp-apps)
+[Mircosoft](https://docs.microsoft.com/zh-tw/windows/msix/package/packaging-uwp-apps)
+
+# Develop
+## Training Heart Failure Model
+1. Using pytorch to pretrain without pretrained weight
+2. Convert the .pt model to .onnx model using pytorch_model2ONNX_model in another github project.
