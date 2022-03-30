@@ -87,6 +87,7 @@ start using UI/UX until waiting for cmd flask server success.
 1. Using pytorch to pretrain without pretrained weight
 2. Convert the .pt model to .onnx model using pytorch_model2ONNX_model in another github project.
 3. **Be careful! If you want to use openvino and myriad you have to check if myriad supports the model layer and deep learning framework you need.**
+4. The model in this project we previded can't use myriad to speed up.
 
 [Supprots](https://docs.openvino.ai/2021.4/openvino_docs_IE_DG_supported_plugins_Supported_Devices.html#supported_model_formats)
 
