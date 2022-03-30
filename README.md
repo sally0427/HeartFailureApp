@@ -60,6 +60,8 @@ pip install -r requirements.txt
 
 確認UI/UX有畫面，安裝成功!(但還不能用，因為沒啟動flask)
 
+此封裝軟體安裝在開發PC上的C:\Program Files\WindowsApps\78f0adba-62c6-4d20-8cde-ac5a99d61f40_1.0.2.0_x64__835jxghk0an7e\HeartFailure.exe
+
 ![image](https://github.com/sally0427/HeartFailureApp/blob/master/HeartFailure_URL/ReadMe/9.png)
 
 ## Edit bat file to your own path
